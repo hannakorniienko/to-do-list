@@ -11,3 +11,5 @@ Tasks should have: title, deadline, status
 * status is one of 3 options : `["not started", "in progress", "done"]`
 * form to add/edit tasks should be opened/closed by clicking on a button (see the screenshot)
 * deploy your project to github page and provide link to your live server in README
+
+My link: https://hannakorniienko.github.io/bof-javascript-todo-list/
