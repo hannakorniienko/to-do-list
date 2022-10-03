@@ -25,21 +25,21 @@ body {
     flex-wrap: wrap;
 }
 
-#openForm {
-    width: 30%;
-    background-color: #d9d9d9;
-    padding: 20px 40px;
-    margin-top: 20px;
-}
-
 p {
     margin-top: 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
 }
 
+form {
+    display: none;
+    width: 30%;
+    background-color: #d9d9d9;
+    padding: 20px 40px;
+    margin-top: 20px;
+}
 
-form div {
+#form1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -60,3 +60,34 @@ input, select  {
 #deadline:focus::before, #deadline:valid::before { 
     display: none 
 }
+
+.todo__item {
+    list-style-type: none;
+}
+
+section {
+    display: flex;
+    justify-content:flex-start;
+    gap: 15px;
+    flex-wrap: wrap;
+    width: 30%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+section div {
+    padding: 5px 10px;
+}
+
+#done {
+    border-left: solid green 4px ;
+}
+
+#not_started {
+    border-left: solid red 4px ;
+}
+
+#in_progress {
+    border-left: solid orange 4px ;
+}
+
