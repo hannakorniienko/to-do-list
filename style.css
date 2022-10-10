@@ -91,3 +91,21 @@ section div {
     border-left: solid orange 4px ;
 }
 
+li {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 5px;
+    margin: 5px 0px;
+}
+
+h4, p, ul {
+    margin: 0;
+}
+
+li button {
+    width: 60px;
+    text-align: center;
+}
