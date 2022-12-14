@@ -54,6 +54,7 @@ const insertEditBtn = (listItem) => {
         form.style.display = "block"
         title.value = listItem.querySelector("h4").innerText
         date.value = listItem.querySelector("p").innerText
+        status.value = listItem.querySelector("p").innerText
         currentItem = listItem
         document.querySelector("#addBtn").style.display = "none"
         document.querySelector("#saveBtn").style.display = "inline"
