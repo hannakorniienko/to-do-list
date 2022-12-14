@@ -36,13 +36,13 @@ const addItem = () => {
 
 const createItem = () => {
     const listItem = document.createElement("li")
-    listItem.innerHTML = `<h4>${title.value}</h4> <p>${date.value}</p>`
+    listItem.innerHTML = `<h4>${title.value}</h4><p>${date.value}</p><p>${status.value}</p>`
     listItem.classList.add("todo__item")
     switchColor()
     listItem.style.borderLeft = `5px solid ${boderColor}`
     insertEditBtn(listItem)
     insertDeleteBtn(listItem)
-    listItem.id = `${title.value}+date.value+status.value`
+    listItem.id = `${title.value}`+`${date.value}`+`${status.value}`
     itemsList.push(title.value)
     return listItem
 }
